@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="GHP.css">
         <title>Google</title>
     </head>
@@ -8,42 +9,43 @@
 <! top bar starts here>
         <header>
             <div class="left">
-                <a href="">About</a>
-                <a href="">Store</a>
+                <a id="about" href="">About</a>
+                <a id="store" href="">Store</a>
             </div>
 
-            <div class="Right">
-                <a href="">Gmail</a>
-                <a href="">Images</a>
+            <div class="right">
+                <a id="gmail" href="">Gmail</a>
+                <a id="images" href="">Images</a>
             </div>
             
         </header>
 
 <! main page starts here       
         <main>
-            <img src=googlelogo.png>
-            <form>
-                <input type="search">
+                <center>
+            <img id="logo" src=googlelogo.png> 
+             <form>
+                <div id="searchborder">
+                <input id="searchbar" type="search">
+                </div>
                 <input class="searchbutton" type="submit" value="Google Search">
-                <input class="Searchbutton" type="submit" value="I'm Feeling Lucky">
+                <input class="searchbutton" type="submit" value="I'm Feeling Lucky">
+                </center>
             </form>
         </main>
 
 <! footer starts here>
-        <footer>
+        <div class="footer">
             <div class="left">
-                <a>Advertising</a>
-                <a>Buisness</a>
-                <a>How Search works</a>
+                <a href="">Advertising</a>
+                <a href="">Buisness</a>
+                <a href="">How Search works</a>
             </div>
             <div class="right">
-                <a>Privacy</a>
-                <a>Terms</a>
-                <a>Settings</a>
-
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Settings</a>
             </div>
-
-        </footer>
-
+        </div>
     </body>
 </html>
